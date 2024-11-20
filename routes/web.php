@@ -6,7 +6,7 @@ use App\Http\Controllers\ControllerCliente;
 use App\Http\Controllers\ControllerProducto;
 use App\Http\Controllers\ControllerEntrada;
 use App\Http\Controllers\ControllerSalida;
-use App\Http\Controllers\Auth\LoginController;
+use App\Http\Controllers\auth\LoginController;
 use App\Http\Middleware\RoleMiddleware;
 
 Route::get('/login', [LoginController::class, 'showLoginForm'])->name('login');
