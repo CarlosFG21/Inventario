@@ -69,14 +69,12 @@ class ControllerProducto extends Controller
 
             'producto' => 'required|string|max:65',
             'descripcion' => 'required|string|max:85',
-            'cantidad' => 'required|string|max:4',
             'precio' => 'required|string|max:4',
 
         ]);
 
         $productoupdate->nombre_producto = $validacion['producto'];
         $productoupdate->descripcion = $validacion['descripcion'];
-        $productoupdate->cantidad = $validacion['cantidad'];
         $productoupdate->precio = $validacion['precio'];
         $productoupdate->save();
 
