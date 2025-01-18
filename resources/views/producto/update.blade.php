@@ -13,7 +13,6 @@
       </div>
     </div>
   </div><!--Terminacion del modulo del encabezad-->
-
   <!--Inicio del fondo donde iran todos los componetes del formulario-->
      <section class="content">
       <div class="card card-warning">
